@@ -16,6 +16,8 @@
 		9F1BE994274E13230044CA00 /* WhereToGoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1BE993274E13230044CA00 /* WhereToGoAppTests.swift */; };
 		9F1BE99E274E13230044CA00 /* WhereToGoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1BE99D274E13230044CA00 /* WhereToGoAppUITests.swift */; };
 		9F1BE9A0274E13230044CA00 /* WhereToGoAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1BE99F274E13230044CA00 /* WhereToGoAppUITestsLaunchTests.swift */; };
+		9F1BE9AE274E1E6E0044CA00 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1BE9AD274E1E6E0044CA00 /* LoginView.swift */; };
+		9F1BE9B1274EF8C30044CA00 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1BE9B0274EF8C30044CA00 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		9F1BE999274E13230044CA00 /* WhereToGoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhereToGoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F1BE99D274E13230044CA00 /* WhereToGoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhereToGoAppUITests.swift; sourceTree = "<group>"; };
 		9F1BE99F274E13230044CA00 /* WhereToGoAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhereToGoAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9F1BE9AD274E1E6E0044CA00 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		9F1BE9B0274EF8C30044CA00 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 		9F1BE97C274E13210044CA00 /* WhereToGoApp */ = {
 			isa = PBXGroup;
 			children = (
+				9F1BE9AF274EF8A00044CA00 /* Home */,
+				9F1BE9AC274E1E430044CA00 /* Login */,
 				9F1BE97D274E13210044CA00 /* WhereToGoAppApp.swift */,
 				9F1BE97F274E13210044CA00 /* ContentView.swift */,
 				9F1BE981274E13230044CA00 /* Assets.xcassets */,
@@ -131,6 +137,22 @@
 				9F1BE99F274E13230044CA00 /* WhereToGoAppUITestsLaunchTests.swift */,
 			);
 			path = WhereToGoAppUITests;
+			sourceTree = "<group>";
+		};
+		9F1BE9AC274E1E430044CA00 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				9F1BE9AD274E1E6E0044CA00 /* LoginView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		9F1BE9AF274EF8A00044CA00 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9F1BE9B0274EF8C30044CA00 /* HomeView.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +288,8 @@
 				9F1BE987274E13230044CA00 /* Persistence.swift in Sources */,
 				9F1BE980274E13210044CA00 /* ContentView.swift in Sources */,
 				9F1BE98A274E13230044CA00 /* WhereToGoApp.xcdatamodeld in Sources */,
+				9F1BE9B1274EF8C30044CA00 /* HomeView.swift in Sources */,
+				9F1BE9AE274E1E6E0044CA00 /* LoginView.swift in Sources */,
 				9F1BE97E274E13210044CA00 /* WhereToGoAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
